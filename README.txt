@@ -1,4 +1,3 @@
-
 # SimpleSSL for TicTacToe | Phase 1
 
 ## VM setup guide:
