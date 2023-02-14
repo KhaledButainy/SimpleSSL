@@ -35,7 +35,7 @@
 5. After every test, it is preferred to clear the terminal on both sides.
 
 ## Important Notes:
-- Certain paramters has to be hardcoded for this version of the code, you have to provide them before running the game.
+- Certain parameters that are used to create public and private keys has to be hardcoded for this version of the code, you have to provide them before running the game.
 - you can notice that most of the tic-tac-toe source code and the TCP socket program have been modified to match the project requirements.
 - the KEY is hardcoded and the IV will be regenerated every new match.
 - if you are using a VM, then only use it as a client. However, local machines can be used as servers or clients.
