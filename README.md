@@ -6,16 +6,16 @@
 2. Download Ubuntu ISO file through https://ubuntu.com/download/desktop
 3. make sure that the virtualization is enabled on the computer you are going to use.
 4. After installing the VM, do the following:
-	a. click on new and name the VM as "Ubuntu" or any name you choose.
-	b. choose the version to be Ubuntu (64-bit) and click on next.
-	c. select the amount of memory, I selected 2048 MB of RAM.
-	d. select "Create a virtual hard disk now" and click on create.
-	e. select "VDI" and click on next.
-	f. select "Dynamically allocated" and click on next.
-	g. select the size of the virtual hard disk, I selected 20 GB.
-	h. now click on the settings, go to System, change Processors to 2.
-	i. go to Display, choose maximum Video Memory
-	j. Start the VM, and select the start-up disk (Ubuntu ISO file that we downloaded earlier)
+	1. click on new and name the VM as "Ubuntu" or any name you choose.
+	2. choose the version to be Ubuntu (64-bit) and click on next.
+	3. select the amount of memory, I selected 2048 MB of RAM.
+	4. select "Create a virtual hard disk now" and click on create.
+	5. select "VDI" and click on next.
+	6. select "Dynamically allocated" and click on next.
+	7. select the size of the virtual hard disk, I selected 20 GB.
+	8. now click on the settings, go to System, change Processors to 2.
+	9. go to Display, choose maximum Video Memory
+	10. Start the VM, and select the start-up disk (Ubuntu ISO file that we downloaded earlier)
 	   and complete the installation process.
 5. Now that you have installed the Ubunto, make sure to download python and pip tool on it.
 
