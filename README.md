@@ -28,11 +28,11 @@
 - Enjoy a "secure" TicTacToe game.
 
 ## What is needed to run the game in this phase:
-1- Follow the VM setup guide.
-2- After having the (server.py, server2.py, client.py, client2.py, tttgame.py) files copied to the VM an other local machine, make sure you have python and pip installed on the machines.
-3- Install PyCryptodome module using pip.
-4- Run server.py/server2.py on your local machine and client.py/client2.py on the VM.
-5- After every test, it is preferred to clear the terminal on both sides.
+1. Follow the VM setup guide.
+2. After having the (server.py, server2.py, client.py, client2.py, tttgame.py) files copied to the VM an other local machine, make sure you have python and pip installed on the machines.
+3. Install PyCryptodome module using pip.
+4. Run server.py/server2.py on your local machine and client.py/client2.py on the VM.
+5. After every test, it is preferred to clear the terminal on both sides.
 
 ## important Notes:
 - you can notice that most of the tic-tac-toe source code and the TCP socket program have been modified to match the project requirements.
