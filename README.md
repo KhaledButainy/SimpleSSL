@@ -2,30 +2,30 @@
 # SimpleSSL for TicTacToe
 
 ## VM setup guide:
-- Download and install VirtualBox through the following link https://www.virtualbox.org/wiki/Downloads
-- Download Ubuntu ISO file through https://ubuntu.com/download/desktop
-- make sure that the virtualization is enabled on the computer you are going to use.
-- After installing the VM, do the following:
-	- a) click on new and name the VM as "Ubuntu" or any name you choose.
-	- b) choose the version to be Ubuntu (64-bit) and click on next.
-	- c) select the amount of memory, I selected 2048 MB of RAM.
-	- d) select "Create a virtual hard disk now" and click on create.
-	- e) select "VDI" and click on next.
-	- f) select "Dynamically allocated" and click on next.
-	- g) select the size of the virtual hard disk, I selected 20 GB.
-	- h) now click on the settings, go to System, change Processors to 2.
-	- i) go to Display, choose maximum Video Memory
-	- j) Start the VM, and select the start-up disk (Ubuntu ISO file that we downloaded earlier)
+1. Download and install VirtualBox through the following link https://www.virtualbox.org/wiki/Downloads
+2. Download Ubuntu ISO file through https://ubuntu.com/download/desktop
+3. make sure that the virtualization is enabled on the computer you are going to use.
+4. After installing the VM, do the following:
+	a. click on new and name the VM as "Ubuntu" or any name you choose.
+	b. choose the version to be Ubuntu (64-bit) and click on next.
+	c. select the amount of memory, I selected 2048 MB of RAM.
+	d. select "Create a virtual hard disk now" and click on create.
+	e. select "VDI" and click on next.
+	f. select "Dynamically allocated" and click on next.
+	g. select the size of the virtual hard disk, I selected 20 GB.
+	h. now click on the settings, go to System, change Processors to 2.
+	i. go to Display, choose maximum Video Memory
+	j. Start the VM, and select the start-up disk (Ubuntu ISO file that we downloaded earlier)
 	   and complete the installation process.
-- Now that you have installed the Ubunto, make sure to download python and pip tool on it.
+5. Now that you have installed the Ubunto, make sure to download python and pip tool on it.
 
 ## How to play the game:
-- Copy the .py files (server.py, client.py, tttgame.py) to the virtual machine.
-- Run the server file on your local machine, you will see the IPv4 address of that machine in the terminal after running the program.
-- Now use the Ubuntu terminal on the VM to run the client file after making sure that the server is running on your local machine.
-- Now enter the server IPv4 address that you have acquired in step 2
-- The server side always plays 'X', and the client side always plays 'O'.
-- Enjoy a "secure" TicTacToe game.
+1. Copy the .py files (server.py, client.py, tttgame.py) to the virtual machine.
+2. Run the server file on your local machine, you will see the IPv4 address of that machine in the terminal after running the program.
+3. Now use the Ubuntu terminal on the VM to run the client file after making sure that the server is running on your local machine.
+4. Now enter the server IPv4 address that you have acquired in step 2
+5. The server side always plays 'X', and the client side always plays 'O'.
+6. Enjoy a "secure" TicTacToe game.
 
 ## What is needed to run the game in this phase:
 1. Follow the VM setup guide.
@@ -50,8 +50,8 @@
 - TCP socket program (server.py, client.py): https://www.techwithtim.net/tutorials/socket-programming
 - Online tool used to verify the encryption/decryption: https://gchq.github.io/CyberChef/
 	* to run the tool:
-		- add "AES Encrypt" to the Recipe section.
-		- Specify all the parameters.
-		- Add the plaintext to the Input section and observe the output.
+		1. add "AES Encrypt" to the Recipe section.
+		2. Specify all the parameters.
+		3. Add the plaintext to the Input section and observe the output.
 
 
